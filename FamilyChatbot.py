@@ -1,24 +1,44 @@
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
 import json
 
-# Load intents with UTF-8 encoding
-with open('FAqs intent.json', 'r', encoding='utf-8') as file:
-    intents = json.load(file)
+# Load the improved JSON file
+with open("/home/ashraf/Documents/Presidency-project/FAqs intent.json", encoding="utf-8") as f:
+    intents_data = json.load(f)["intents"]
 
-def find_response(user_input):
-    user_input = user_input.lower()
+# Prepare training data
+training_data = []
+for intent in intents_data:
+    tag = intent["tag"]
+    patterns = intent.get("patterns", [])
+    responses = intent.get("responses", [])
 
-    for intent in intents:
-        topic = intent["topic"].lower()
-        if topic in user_input:
-            return intent["response"]
+    for pattern in patterns:
+        for response in responses:
+            training_data.append(pattern)
+            training_data.append(response)
 
-    return "Sorry, I couldn't find an answer for that. Please try asking differently."
+# Initialize chatbot
+chatbot = ChatBot(
+    "FAQBot",
+    logic_adapters=[
+        {
+            "import_path": "chatterbot.logic.BestMatch"
+        }
+    ],
+    read_only=True
+)
 
-# Run the chatbot
-print("👩‍⚖️ Family Law Bot (type 'exit' to quit)")
+# Train chatbot
+trainer = ListTrainer(chatbot)
+trainer.train(training_data)
+
+# Chat loop
+print("FAQBot: Hi! Ask me anything or type 'exit' to quit.")
 while True:
     user_input = input("You: ")
     if user_input.lower() == "exit":
+        print("FAQBot: Goodbye!")
         break
-    response = find_response(user_input)
-    print("Bot:", response)
+    response = chatbot.get_response(user_input)
+    print("FAQBot:", response)

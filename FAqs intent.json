@@ -2,7 +2,7 @@
   "conversations": [
     {
       "intent": "ask_alimony_info",
-      "topic": "Alimony    Spousal Support",
+      "topic": "Alimony Spousal Support",
       "response": "Depending on your state  s laws and your personal circumstances, alimony (also called spousal support) may be awarded during a divorce. It can be temporary or permanent, though permanent support is less common today."
     },
     {

@@ -2,21 +2,16 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import json
 
-# Load the improved JSON file
-with open("/home/ashraf/Documents/Presidency-project/FAqs intent.json", encoding="utf-8") as f:
-    intents_data = json.load(f)["intents"]
+# Load simplified question-answer pairs
+with open("FAqs intent.json", encoding="utf-8") as f:
+    qa_data = json.load(f)
 
-# Prepare training data
+# Prepare training pairs
 training_data = []
-for intent in intents_data:
-    tag = intent["tag"]
-    patterns = intent.get("patterns", [])
-    responses = intent.get("responses", [])
-
-    for pattern in patterns:
-        for response in responses:
-            training_data.append(pattern)
-            training_data.append(response)
+for item in qa_data:
+    question = item["question"]
+    answer = item["answer"]
+    training_data.append([question, answer])
 
 # Initialize chatbot
 chatbot = ChatBot(
@@ -29,11 +24,11 @@ chatbot = ChatBot(
     read_only=True
 )
 
-# Train chatbot
 trainer = ListTrainer(chatbot)
-trainer.train(training_data)
+for pair in training_data:
+    trainer.train(pair)
 
-# Chat loop
+# Start chat
 print("FAQBot: Hi! Ask me anything or type 'exit' to quit.")
 while True:
     user_input = input("You: ")
@@ -41,4 +36,7 @@ while True:
         print("FAQBot: Goodbye!")
         break
     response = chatbot.get_response(user_input)
-    print("FAQBot:", response)
+    if float(response.confidence) < 0.3:
+        print("FAQBot: I'm not sure how to help with that. Could you try asking in a different way?")
+    else:
+        print("FAQBot:", response)

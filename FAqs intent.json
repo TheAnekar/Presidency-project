@@ -6,9 +6,9 @@
       "response": "Depending on your state  s laws and your personal circumstances, alimony (also called spousal support) may be awarded during a divorce. It can be temporary or permanent, though permanent support is less common today."
     },
     {
-      "intent": "Hi",
-      "topic": "greeting",
-      "response": "Hello!"
+      "intent": "greeting",
+      "topic": "Hi",
+      "response": "Hello!,How can I help You"
     },
     {
       "intent": "ask_paternity_info",
@@ -94,6 +94,36 @@
       "intent": "CAN OTHER OCCUPANTS OF THE MOTOR VEHICLE USE THE MOBILE PHONE  ",
       "topic": "CAN OTHER OCCUPANTS OF THE MOTOR VEHICLE USE THE MOBILE PHONE  ",
       "response": "With the exception of the driver other occupants of the motor vehicle can use a mobile phone. However the passenger should not facilitate the use of mobile phone by the driver by holding the mobile phone to the driver’s ear."
+    },
+    {
+      "intent": "bot_name",
+      "topic": "what is your name",
+      "response": "I'm FAQBot, here to help you with legal and traffic-related questions!"
+    },
+    {
+      "intent": "ask_help",
+      "topic": "help",
+      "response": "You can ask me about divorce laws, child support, traffic rules, and more. Try asking something like 'what documents should I carry when driving?'"
+    },
+    {
+      "intent": "thank_you",
+      "topic": "thank you",
+      "response": "You're welcome! Let me know if you have any more questions."
+    },
+    {
+      "intent": "goodbye",
+      "topic": "bye",
+      "response": "Goodbye! Drive safe and stay informed."
+    },
+    {
+      "intent": "how_are_you",
+      "topic": "how are you",
+      "response": "I'm doing great, thank you for asking! Ready to help you with any questions you have."
+    },
+    {
+      "intent": "bot_capabilities",
+      "topic": "what can you do",
+      "response": "I can answer questions related to family law and traffic rules. Just ask away!"
     }
     
   ]

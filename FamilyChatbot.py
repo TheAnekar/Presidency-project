@@ -1,41 +1,35 @@
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
 import json
-with open("FAqs intent.json", "r") as f:
-    faq_data = json.load(f)
-intent_responses = {
-    item["intent"]: item["response"] for item in faq_data["conversations"]
-}
-keywords_to_intents = {
-    "alimony": "ask_alimony_info",
-    "spousal support": "ask_alimony_info",
-    "paternity": "ask_paternity_info",
-    "collaborative": "ask_collaborative_divorce",
-    "parenting": "ask_parenting_agreements",
-    "restraining": "ask_restraining_orders",
-    "house": "ask_who_gets_house",
-    "child support": "ask_child_support_nonpayment",
-    "adoption": "ask_relative_adoption",
-    "change alimony": "ask_change_alimony_amount",
-    "change my alimony": "ask_change_alimony_amount",
-    "move kids": "ask_ex_move_kids_out_of_state",
-    "relocation": "ask_ex_move_kids_out_of_state",
-   "WHAT DOCUMENTS SHOULD A PERSON CARRY WHEN DRIVING/ RIDING?": "DOCUMENTS TO BE CARRIED"
-}
-def get_intent(user_input):
-    user_input = user_input.lower()
-    for keyword, intent in keywords_to_intents.items():
-        if keyword in user_input:
-            return intent
-    return None
-print(" Family Law Assistant Chatbot\n(Type 'exit' to quit)\n")
 
+with open(r"C:\Users\KUMARAGURU\Desktop\Presidency-project\FAqs intent.json", encoding="utf-8") as f:
+    faq_data = json.load(f)["conversations"]
+
+training_data = []
+for faq in faq_data:
+    question = faq["topic"]
+    answer = faq["response"]
+    training_data.append(question)
+    training_data.append(answer)
+
+chatbot = ChatBot(
+    "FAQBot",
+    logic_adapters=[
+        {
+            "import_path": "chatterbot.logic.BestMatch"
+        }
+    ],
+    read_only=True,
+)
+
+trainer = ListTrainer(chatbot)
+trainer.train(training_data)
+
+print("FAQBot: Hi! Ask me anything or type 'exit' to quit.")
 while True:
     user_input = input("You: ")
-    if user_input.lower() in ['exit', 'quit']:
+    if user_input.lower() == "exit":
+        print("FAQBot: Goodbye!")
         break
-    
-    intent = get_intent(user_input)
-    
-    if intent and intent in intent_responses:
-        print("Bot:", intent_responses[intent])
-    else:
-        print("Bot: I'm sorry, I don't have information on that topic. Can you try rephrasing?")
+    response = chatbot.get_response(user_input)
+    print("FAQBot:", response)

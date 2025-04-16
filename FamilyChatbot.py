@@ -18,7 +18,7 @@ keywords_to_intents = {
     "change my alimony": "ask_change_alimony_amount",
     "move kids": "ask_ex_move_kids_out_of_state",
     "relocation": "ask_ex_move_kids_out_of_state",
-    ""
+    "DOCUMENTS TO BE CARRIED": "DOCUMENTS TO BE CARRIED"
 }
 def get_intent(user_input):
     user_input = user_input.lower()

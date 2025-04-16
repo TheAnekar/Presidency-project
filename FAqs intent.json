@@ -90,5 +90,62 @@
   {
     "question": "What can you do?",
     "answer": "I can answer questions related to family law and traffic rules. Just ask away!."
+  },
+  {
+    "question": "Can I be arrested without a warrant?",
+    "answer": "Yes, in certain cases like a cognizable offence, police can arrest without a warrant."
+  },
+  {
+    "question": "What are my rights if I get arrested?",
+    "answer": "You have the right to remain silent, consult a lawyer, and be informed of the charges."
+  },
+  {
+    "question": "What is an FIR and how do I file one?",
+    "answer": "An FIR is a First Information Report registered by police for a cognizable offence. You can file it at any police station."
+  },
+  {
+    "question": "What is the legal drinking age in India?",
+    "answer": "The legal drinking age varies by state. It ranges from 18 to 25 depending on the region."
+  },
+  {
+    "question": "Is it illegal to record someone without their consent?",
+    "answer": "Recording private conversations without consent may be considered a breach of privacy under the IT Act and IPC."
+  },
+  {
+    "question": "What are bailable and non-bailable offences?",
+    "answer": "Bailable offences allow bail as a right. Non-bailable offences require court permission for bail."
+  },
+  {
+    "question": "Can a minor be tried as an adult in court?",
+    "answer": "Yes, if the minor is between 16-18 and accused of a heinous crime, he/she may be tried as an adult under the Juvenile Justice Act."
+  },
+  {
+    "question": "What are the basic traffic fines for speeding?",
+    "answer": "Speeding may result in fines ranging from ₹1000 to ₹5000, depending on the type of vehicle and extent of violation."
+  },
+  {
+    "question": "What is a challan and how do I pay it?",
+    "answer": "A challan is a traffic violation notice. You can pay it online via your state RTO or traffic police portal."
+  },
+  {
+    "question": "Can police check my vehicle without reason?",
+    "answer": "Police can check vehicles during routine checks or if there is reasonable suspicion of illegal activity."
+  },
+  {
+    "question": "What are my rights during a police check?",
+    "answer": "You can ask for the officer's ID, and you have the right to remain silent and refuse a search without a warrant unless exceptions apply."
+  },
+  {
+    "question": "Is domestic violence punishable by law?",
+    "answer": "Yes, under the Protection of Women from Domestic Violence Act, domestic abuse is punishable by law."
+  },
+  {
+    "question": "What is anticipatory bail?",
+    "answer": "It is bail granted in anticipation of arrest for a non-bailable offence, preventing arrest before it happens."
+  },
+  {
+    "question": "Can police enter my house without a warrant?",
+    "answer": "Only in cases of emergency or while pursuing a suspect can the police enter without a warrant."
   }
+  
 ]

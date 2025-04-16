@@ -1,286 +1,94 @@
-{
-  "intents": [
-    {
-      "tag": "ask_alimony_info",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Depending on your state  s laws and your personal circumstances",
-        "alimony (also called spousal support) may be awarded during a divorce. It can be temporary or permanent",
-        "though permanent support is less common today."
-      ]
-    },
-    {
-      "tag": "greeting",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Hello!",
-        "How can I help You"
-      ]
-    },
-    {
-      "tag": "ask_paternity_info",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Establishing paternity creates a legal relationship between a father and child. This can be done through voluntary acknowledgement",
-        "genetic testing",
-        "or other legal means. It may entitle the child to financial support and the father to visitation rights."
-      ]
-    },
-    {
-      "tag": "ask_collaborative_divorce",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Collaborative divorce is an option for couples who want a cooperative",
-        "less contentious divorce process. It allows them to work together on agreements regarding finances",
-        "child custody",
-        "and other important matters without going to court."
-      ]
-    },
-    {
-      "tag": "ask_parenting_agreements",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "After a divorce or separation",
-        "co  parents may create parenting agreements. These define where the children will live",
-        "visitation schedules",
-        "and who makes decisions about things like education and healthcare."
-      ]
-    },
-    {
-      "tag": "ask_restraining_orders",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Victims of abuse",
-        "stalking",
-        "or harassment by family members can seek temporary or permanent restraining orders. These are court orders that reduce or eliminate contact between the abuser and the victim."
-      ]
-    },
-    {
-      "tag": "ask_who_gets_house",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "When deciding who keeps the marital home during a divorce",
-        "courts may consider factors such as who will have physical custody of the children and whether the home equity was acquired using separate or community funds."
-      ]
-    },
-    {
-      "tag": "ask_child_support_nonpayment",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "If your ex  spouse refuses to pay child support",
-        "document each instance of non  payment. If the issue can  t be resolved privately",
-        "you can seek enforcement or file a contempt action through the court."
-      ]
-    },
-    {
-      "tag": "ask_relative_adoption",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Family members such as stepparents",
-        "grandparents",
-        "aunts",
-        "and uncles are often given preference in adoption cases. Courts typically consider it in the child  s best interest to be placed with a relative when possible."
-      ]
-    },
-    {
-      "tag": "ask_change_alimony_amount",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "If your financial or personal circumstances have significantly changed",
-        "you may request a temporary or permanent modification of the alimony amount you are paying or receiving as part of your divorce settlement."
-      ]
-    },
-    {
-      "tag": "ask_ex_move_kids_out_of_state",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "In most states",
-        "if your ex wants to move to another state with your children",
-        "they must either give you a chance to contest the move or seek court approval through a formal petition process."
-      ]
-    },
-    {
-      "tag": "documents_to_be_carried",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Driving License  Registration Certificate  Emission Test Certificate    Pollution Under Control Certificate.  Insurance Certificate  Fitness Certificate",
-        "Permit and tax paid certificate (in case of transport vehicles)  Documents should be carried in original or shown on DigiLocker or mParivahan Application"
-      ]
-    },
-    {
-      "tag": "driving_without_a_license_consequences",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "You will penalized with fine of 1000     for Two    Three Wheeler",
-        "Rs.2000     for LMV and Rs.5000 for other Vehicles. The registered owner or the person in charge of vehicle is also penalized for the same amount if he allows a person without license to drive    ride the vehicle."
-      ]
-    },
-    {
-      "tag": "officer_authorised_to_collect_fine",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Any Traffic officer of and above the rank of Assistant Sub  Inspector of Police is duly authorized to collect spot fine for traffic violations."
-      ]
-    },
-    {
-      "tag": "traffic_violation_notice",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "YOU CAN PAY THE FINE AT   Traffic Head Quarters",
-        "5th Floor",
-        "Enforcement Automation Centre",
-        "Infantry Road",
-        "Bengaluru 560001.  Any of the 44 Traffic Police Stations in Bengaluru City.  Any Traffic Officer empowered to collect fine in Bengaluru City  Any Bengaluru  One centers.  Online at https:    btp.gov.in or https:    karnatakaone.gov.in"
-      ]
-    },
-    {
-      "tag": "why_have_i_received_a_violation_ticket_for_the_vehicle_i_have_already_sold",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "SEAT BELT"
-      ]
-    },
-    {
-      "tag": "seat_belt_rule",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Occupants in car must wear seat belts while vehicle is in motion (U  S 194  B of MV Act)."
-      ]
-    },
-    {
-      "tag": "using_cell_phone_while_driving",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "Not only using mobile phones",
-        "even using hands free devices to access mobile phones (earphones",
-        "Bluetooth headset",
-        "etc.",
-        ") while driving is an offence. You are allowed to use mobile phone when driving    riding for navigation purpose only..."
-      ]
-    },
-    {
-      "tag": "can_other_occupants_of_the_motor_vehicle_use_the_mobile_phone",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "With the exception of the driver other occupants of the motor vehicle can use a mobile phone. However the passenger should not facilitate the use of mobile phone by the driver by holding the mobile phone to the driver\u2019s ear."
-      ]
-    },
-    {
-      "tag": "bot_name",
-      "patterns": [
-        "What is your name?",
-        "Who are you?",
-        "Do you have a name?",
-        "Tell me your name",
-        "Identify yourself"
-      ],
-      "responses": [
-        "I'm FAQBot",
-        "here to help you with legal and traffic-related questions!"
-      ]
-    },
-    {
-      "tag": "ask_help",
-      "patterns": [
-        "What does this mean?"
-      ],
-      "responses": [
-        "You can ask me about divorce laws",
-        "child support",
-        "traffic rules",
-        "and more. Try asking something like 'what documents should I carry when driving?'"
-      ]
-    },
-    {
-      "tag": "thank_you",
-      "patterns": [
-        "Thank you",
-        "Thanks",
-        "Much appreciated",
-        "Thanks a lot",
-        "Thank you so much"
-      ],
-      "responses": [
-        "You're welcome! Let me know if you have any more questions."
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "Bye",
-        "Goodbye",
-        "See you",
-        "Talk later",
-        "Catch you later"
-      ],
-      "responses": [
-        "Goodbye! Drive safe and stay informed."
-      ]
-    },
-    {
-      "tag": "how_are_you",
-      "patterns": [
-        "How are you?",
-        "How's it going?",
-        "You good?",
-        "What's up?",
-        "How do you feel?"
-      ],
-      "responses": [
-        "I'm doing great",
-        "thank you for asking! Ready to help you with any questions you have."
-      ]
-    },
-    {
-      "tag": "bot_capabilities",
-      "patterns": [
-        "What can you do?",
-        "What are your features?",
-        "Tell me your capabilities",
-        "What help can you offer?",
-        "List your functions"
-      ],
-      "responses": [
-        "I can answer questions related to family law and traffic rules. Just ask away!"
-      ]
-    }
-  ]
-}
+[
+  {
+    "question": "Can you explain hello help?",
+    "answer": "Hello! How can I help You."
+  },
+  {
+    "question": "Can you explain establishing paternity creates?",
+    "answer": "Establishing paternity creates a legal relationship between a father and child. This can be done through voluntary acknowledgement genetic testing or other legal means. It may entitle the child to financial support and the father to visitation rights."
+  },
+  {
+    "question": "What should I know about collaborative divorce option?",
+    "answer": "Collaborative divorce is an option for couples who want a cooperative less contentious divorce process. It allows them to work together on agreements regarding finances child custody and other important matters without going to court."
+  },
+  {
+    "question": "What should I know about after divorce separation?",
+    "answer": "After a divorce or separation co  parents may create parenting agreements. These define where the children will live visitation schedules and who makes decisions about things like education and healthcare."
+  },
+  {
+    "question": "Can you explain victims abuse stalking?",
+    "answer": "Victims of abuse stalking or harassment by family members can seek temporary or permanent restraining orders. These are court orders that reduce or eliminate contact between the abuser and the victim."
+  },
+  {
+    "question": "Can you explain deciding keeps marital?",
+    "answer": "When deciding who keeps the marital home during a divorce courts may consider factors such as who will have physical custody of the children and whether the home equity was acquired using separate or community funds."
+  },
+  {
+    "question": "What are the rules related to spouse refuses child?",
+    "answer": "If your ex  spouse refuses to pay child support document each instance of non  payment. If the issue can  t be resolved privately you can seek enforcement or file a contempt action through the court."
+  },
+  {
+    "question": "Can you explain family members such?",
+    "answer": "Family members such as stepparents grandparents aunts and uncles are often given preference in adoption cases. Courts typically consider it in the child  s best interest to be placed with a relative when possible."
+  },
+  {
+    "question": "Can you explain financial personal circumstances?",
+    "answer": "If your financial or personal circumstances have significantly changed you may request a temporary or permanent modification of the alimony amount you are paying or receiving as part of your divorce settlement."
+  },
+  {
+    "question": "Can you explain most states wants?",
+    "answer": "In most states if your ex wants to move to another state with your children they must either give you a chance to contest the move or seek court approval through a formal petition process."
+  },
+  {
+    "question": "What happens if I drive without a license?",
+    "answer": "Driving License  Registration Certificate  Emission Test Certificate    Pollution Under Control Certificate.  Insurance Certificate  Fitness Certificate Permit and tax paid certificate (in case of transport vehicles)  Documents should be carried in original or shown on DigiLocker or mParivahan Application."
+  },
+  {
+    "question": "What happens if I drive without a license?",
+    "answer": "You will penalized with fine of 1000     for Two    Three Wheeler Rs.2000     for LMV and Rs.5000 for other Vehicles. The registered owner or the person in charge of vehicle is also penalized for the same amount if he allows a person without license to drive    ride the vehicle."
+  },
+  {
+    "question": "Can you explain traffic officer above?",
+    "answer": "Any Traffic officer of and above the rank of Assistant Sub  Inspector of Police is duly authorized to collect spot fine for traffic violations."
+  },
+  {
+    "question": "Can you explain fine traffic head?",
+    "answer": "YOU CAN PAY THE FINE AT   Traffic Head Quarters 5th Floor Enforcement Automation Centre Infantry Road Bengaluru 560001.  Any of the 44 Traffic Police Stations in Bengaluru City.  Any Traffic Officer empowered to collect fine in Bengaluru City  Any Bengaluru  One centers.  Online at https:    btp.gov.in or https:    karnatakaone.gov.in."
+  },
+  {
+    "question": "Can you explain occupants must wear?",
+    "answer": "Occupants in car must wear seat belts while vehicle is in motion (U  S 194  B of MV Act)."
+  },
+  {
+    "question": "Is it legal to use a mobile phone while driving?",
+    "answer": "Not only using mobile phones even using hands free devices to access mobile phones (earphones ) while driving is an offence. You are allowed to use mobile phone when driving    riding for navigation purpose only..."
+  },
+  {
+    "question": "Can you explain exception driver other?",
+    "answer": "With the exception of the driver other occupants of the motor vehicle can use a mobile phone. However the passenger should not facilitate the use of mobile phone by the driver by holding the mobile phone to the driver’s ear."
+  },
+  {
+    "question": "What is your name?",
+    "answer": "I'm FAQBot here to help you with legal and traffic-related questions!."
+  },
+  {
+    "question": "What are the rules related to divorce laws child?",
+    "answer": "You can ask me about divorce laws child support traffic rules and more. Try asking something like 'what documents should I carry when driving?'."
+  },
+  {
+    "question": "Thanks!",
+    "answer": "You're welcome! Let me know if you have any more questions."
+  },
+  {
+    "question": "Goodbye!",
+    "answer": "Goodbye! Drive safe and stay informed."
+  },
+  {
+    "question": "How are you?",
+    "answer": "I'm doing great thank you for asking! Ready to help you with any questions you have."
+  },
+  {
+    "question": "What can you do?",
+    "answer": "I can answer questions related to family law and traffic rules. Just ask away!."
+  }
+]

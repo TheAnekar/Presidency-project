@@ -49,26 +49,6 @@
       "intent": "ask_ex_move_kids_out_of_state",
       "topic": "Relocation with Children",
       "response": "In most states, if your ex wants to move to another state with your children, they must either give you a chance to contest the move or seek court approval through a formal petition process."
-    },
-    {
-      "intent":"I'm getting married next year, and my fiancé and I were thinking about getting a prenup. Is that something you can help with?",
-      "topic":"prenup for marriage",
-      "response":"Absolutely. A prenuptial agreement is a smart move—especially if either of you owns property, a business, or has significant debts. We’ll make sure it’s fair and legally binding."
-    } 
-    {
-      "intent":"My partner and I are separating, and I have no idea where to start. We own a house together and have two kids.",
-      "topic":"separation",
-      "response":"First, I'm sorry you're going through this. Let's start by discussing your legal options—whether you're filing for divorce or going the separation route. Then we can talk about splitting the house, parenting arrangements, and support.".
-    } 
-    {
-      "intent":"My ex and I are having trouble agreeing on custody. He wants full custody, but I think a shared plan would be better for our daughter.",
-      "topic":"",
-      "response":"Absolutely. A prenuptial agreement is a smart move—especially if either of you owns property, a business, or has significant debts. We’ll make sure it’s fair and legally binding."
-    } 
-    {
-      "intent":"I'm getting married next year, and my fiancé and I were thinking about getting a prenup. Is that something you can help with?",
-      "topic":"prenup for marriage",
-      "response":"Absolutely. A prenuptial agreement is a smart move—especially if either of you owns property, a business, or has significant debts. We’ll make sure it’s fair and legally binding."
-    } 
+    }  
 ]
 }

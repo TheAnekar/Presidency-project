@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Legal Assistant</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="chat-container">
+  <div class="top-bar">
+    <img src="https://imgs.search.brave.com/oLOXHNqv77DcJ6I8bqz0z0QnEjgNZFUGusULGl-wPuU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by92/aWV3LTNkLXByYWN0/aWNpbmctbGF3eWVy/XzIzLTIxNTEwMjM0/MDMuanBnP3NlbXQ9/YWlzX2h5YnJpZA" alt="Avatar">
+    <strong><h4>AI Lawyer</h4></strong>
+    <div class="clock" id="clock"></div>
+  </div>
+  <div class="chat-area" id="chatArea">
+    <div class="message-center"><h1>How can I assist you today?</h1></div>
+  </div>
+  <div class="input-bar">
+    <input type="text" id="messageInput" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+<script>
+  function updateClock() {
+    const now = new Date();
+    now.setMinutes(now.getMinutes()); 
+    const timeString = now.toLocaleTimeString([], {
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+    document.getElementById('clock').textContent = timeString;
+  }
+  setInterval(updateClock, 1000);
+  updateClock();
+
+  function sendMessage() {
+    const input = document.getElementById('messageInput');
+    const messageText = input.value.trim();
+    if (messageText === '') return;
+
+    const chatArea = document.getElementById('chatArea');
+    const messageDiv = document.createElement('div');
+    messageDiv.className = 'message user';
+    const now = new Date();
+    now.setMinutes(now.getMinutes());
+    messageDiv.innerHTML = `${messageText}<div class="timestamp">${now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</div>`;
+
+    chatArea.appendChild(messageDiv);
+    chatArea.scrollTop = chatArea.scrollHeight;
+    input.value = '';
+  }
+
+  document.getElementById('messageInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      sendMessage();
+    }
+  });
+</script>
+</body>
+</html>

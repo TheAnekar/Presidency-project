@@ -1,0 +1,364 @@
+[
+    {
+      "intent": "DOCUMENTS TO BE CARRIED",
+      "questions": [
+        "WHAT DOCUMENTS SHOULD A PERSON CARRY WHEN DRIVING/ RIDING?"
+      ],
+      "answer": "Driving License\nRegistration Certificate\nEmission Test Certificate / Pollution Under Control Certificate.\nInsurance Certificate\nFitness Certificate, Permit and tax paid certificate (in case of transport vehicles)\nDocuments should be carried in original or shown on DigiLocker or mParivahan Application"
+    },
+    {
+      "intent": "DRIVING WITHOUT A LICENSE CONSEQUENCES",
+      "questions": [
+        "WHAT ARE THE CONSEQUENCES FOR DRIVING WITHOUT A LICENSE?"
+      ],
+      "answer": "You will penalized with fine of 1000/- for Two / Three Wheeler, Rs.2000/- for LMV and Rs.5000 for other Vehicles. The registered owner or the person in charge of vehicle is also penalized for the same amount if he allows a person without license to drive / ride the vehicle."
+    },
+    {
+      "intent": "OFFICER AUTHORISED TO COLLECT FINE",
+      "questions": [
+        "WHO IS AUTHORIZED TO COLLECT SPOT FINE FOR TRAFFIC VIOLATIONS?"
+      ],
+      "answer": "Any Traffic officer of and above the rank of Assistant Sub-Inspector of Police is duly authorized to collect spot fine for traffic violations."
+    },
+    {
+      "intent": "TRAFFIC VIOLATION NOTICE",
+      "questions": [
+        "I HAVE RECEIVED A NOTICE FROM THE TRAFFIC ENFORCEMENT AUTOMATION CENTRE. WHAT SHALL I DO?"
+      ],
+      "answer": "YOU CAN PAY THE FINE AT;\n\nTraffic Head Quarters, 5th Floor, Enforcement Automation Centre, Infantry Road, Bengaluru 560001.\nAny of the 44 Traffic Police Stations in Bengaluru City.\nAny Traffic Officer empowered to collect fine in Bengaluru City\nAny Bengaluru-One centers.\nOnline at https://btp.gov.in or https://karnatakaone.gov.in"
+    },
+    {
+      "intent": "WHY HAVE I RECEIVED A VIOLATION TICKET FOR THE VEHICLE I HAVE ALREADY SOLD?",
+      "questions": [
+        "WHY HAVE I RECEIVED A VIOLATION TICKET FOR THE VEHICLE I HAVE ALREADY SOLD?"
+      ],
+      "answer": "SEAT BELT"
+    },
+    {
+      "intent": "SEAT BELT RULE",
+      "questions": [
+        "WHAT IS THE RULE REGARDING SEAT BELTS? IS IT MANDATORY TO USE SEAT BELTS WHILE DRIVING IN INTERIOR AREAS OR BY LANES?"
+      ],
+      "answer": "Occupants in car must wear seat belts while vehicle is in motion (U/S 194-B of MV Act)."
+    },
+    {
+      "intent": "USING CELL PHONE WHILE DRIVING",
+      "questions": [
+        "CAN I USE HANDS FREE DEVICE FOR USING MOBILE PHONE WHEN DRIVING?"
+      ],
+      "answer": "Not only using mobile phones, even using hands free devices to access mobile phones (earphones, Bluetooth headset, etc.,) while driving is an offence. You are allowed to use mobile phone when driving / riding for navigation purpose only. As per Section 184 (c) M.V Act, no person can use handheld communication devices (mobile phones) while driving or riding a motor vehicle. You will be penalized with fine of 1,500/- for Two / Three Wheeler, Rs.1,500/- for LMV and Rs.5,000 for other Vehicles. Second and subsequent offence attracts a hefty penalty of Rs.10,000/-."
+    },
+    {
+      "intent": "CAN OTHER OCCUPANTS OF THE MOTOR VEHICLE USE THE MOBILE PHONE?",
+      "questions": [
+        "CAN OTHER OCCUPANTS OF THE MOTOR VEHICLE USE THE MOBILE PHONE?"
+      ],
+      "answer": "With the exception of the driver other occupants of the motor vehicle can use a mobile phone. However the passenger should not facilitate the use of mobile phone by the driver by holding the mobile phone to the driver’s ear."
+    },
+    {
+      "intent": "IF I AM A DOCTOR; CAN I USE MY MOBILE PHONE IN AN EMERGENCY WHILE DRIVING?",
+      "questions": [
+        "IF I AM A DOCTOR; CAN I USE MY MOBILE PHONE IN AN EMERGENCY WHILE DRIVING?"
+      ],
+      "answer": "Nobody is exempted in this regard. Pullover your vehicle with necessary precautions and use the mobile."
+    },
+    {
+      "intent": "DUTIES OF A DRIVER IN CASE OF ACCIDENT",
+      "questions": [
+        "WHAT ARE THE DUTIES OF A DRIVER WHEN HIS VEHICLE IS INVOLVED IN AN ACCIDENT RESULTING IN DEATH/BODILY INJURY/DAMAGE TO PROPERTY?"
+      ],
+      "answer": "The duties are as under: Arrange for medical help - Inform the police. In case the vehicle is carrying dangerous goods, keep everyone away, avoid smoking in the vicinity and take emergency action as displayed on the vehicle."
+    },
+    {
+      "intent": "WHEN ARE VEHICLES TOWED?",
+      "questions": [
+        "WHEN ARE VEHICLES TOWED?"
+      ],
+      "answer": "Vehicle abandoned or left unattended or parked in a prohibited zone or notified no parking area parked in a way causing inconvenience to other road users and free flow of traffic, can be towed away."
+    },
+    {
+      "intent": "PUNISHMENT FOR DRUNKEN DRIVING",
+      "questions": [
+        "WHAT IS THE PUNISHMENT FOR DRUNKEN DRIVING OR DRIVING UNDER THE INFLUENCE OF ANY DRUG?"
+      ],
+      "answer": "If a driver is caught driving a vehicle with alcohol in his blood exceeding 30 mg per 100 ml or he is under the influence of drug to such an extent that he is incapable of exercising proper control over the vehicle, the following will be the punishments. First Offence: Imprisonment up to 6 months or fine up to Rs 10,000 or both. For Subsequent Offence: Imprisonment up to 2 years or fine up to Rs 15,000 or both"
+    },
+    {
+      "intent": "CONSEQUENCES OF DRIVING UNDER INFLUENCE OF LIQUOR",
+      "questions": [
+        "WHAT ARE CONSEQUENCES OF DRIVING UNDER THE INFLUENCE OF LIQUOR ABOVE THE PERMISSIBLE LIMIT?"
+      ],
+      "answer": "If you are caught driving under the influence of liquor you will be issued a police notice for the appearance in the Court. There is no provision of paying the fine on the spot. Only court is empowered to impose the fine. Moreover, you will not be allowed to continue to drive unless you have a partner who is not under the influence of liquor and has a valid driving license. OR You will be advised to hire a cab leaving the vehicle in the police station under acknowledgement till you appear in the court and pay the fine. Your driving license will also be kept with the police till the disposal of the case. You are reminded that on repeat offence of driving under the influence of liquor, there is a provision for enhanced penalty and imprisonment. If you commit a fatal accident under the influence of liquor you could be booked for culpable homicide not amounting to murder which is a non-bailable offence.... ARE POLICE EMPOWERED TO TAKE BREATH ON THE SUSPICION OF DRUNKEN DRIVING? ARE THE ALCO METER READINGS ACCURATE? WHEN CAN A MOTORIST BE CHARGED WITH DRUNK DRIVING? WHAT IS THE PROCEDURE FOR PAYING THE FINE?"
+    },
+    {
+      "intent": "PAYING FINE FOR DRUNKEN DRIVING",
+      "questions": [
+        "A motorist caught driving under the influence of liquor beyond permissible limit is liable to be charged with the offence of drunken driving. Legal permissible limit is 30mg of alcohol per 100ml of blood. Traffic police use state of art Alco meters (breath analyzers) which is accepted worldwide to measure the level of alcohol in blood. This is scientifically and legally accepted method all over the world. Our instruments are calibrated once in three months with a probable error of +/- 5%. Therefore, we do not panelize anyone below 40mg per 100ml of blood even though legal limit is only 30. Anyone driving with alcohol level below a reading of 40 is not liable for prosecution.\nHowever, not everyone is subjected to breath test. A preliminary or passive test is carried by holding the instrument (breath analyzer) close to the mouth and asking name of the person or to blow which indicates consumption of alcohol (passive test). If the result is negative, no further check is required. If the result is positive, breath sample is taken using the disposable straw and the print out taken using connected printer. Subsequently, the PDA generated police notice is given to the motorists. No one can be prosecuted without a computerized print out indicating reading and a PDA print out mentioning the reading.\nHowever, there is no spot fine for drunken driving. No police officer is allowed to collect spot fines for this offence. The offender will be given a notice, and directed to appear before the jurisdictional court and he has to pay a fine there. The punishment for drunk driving is six month’s imprisonment or payment of a fine up to Rs.10,000/- or both. If the offender is caught committing the offence a second time, he will have to face imprisonment of two years or a fine up to Rs.15,000 or both.\nAfter being issued a notice, the motorist will not be allowed to drive. He will have to leave his vehicle behind and take a cab home or call a friend or relative to drive him home. In case he wants to take the vehicle using the another person who is not drunk but is free to do so after leaving his original driving license and RC book under acknowledgement with the police officer. Very often, motorists try to avoid legal proceedings by bribing the police officers concerned. Follow the proper procedures and do not resort to corruption. Moreover, if a person drives under the influence of alcohol and causes a fatal accident, he will be booked for culpable homicide not amounting to murder – which is a non-bailable offence."
+      ]
+    },
+    {
+      "intent": "WHAT HAPPENS IF I DON’T APPEAR IN THE COURT TO A NOTICE FOR DRUNKEN DRIVING?",
+      "questions": [
+        "WHAT HAPPENS IF I DON’T APPEAR IN THE COURT TO A NOTICE FOR DRUNKEN DRIVING?"
+      ],
+      "answer": "If you fail to appear in court, warrant will be issued from the court to compel your appearance. This may lead to arrest and stiffer penalty."
+    },
+    {
+      "intent": "HOW DO I KNOW HOW MUCH CAN I DRINK TO REMAIN WITHIN PERMISSIBLE LIMIT?",
+      "questions": [
+        "HOW DO I KNOW HOW MUCH CAN I DRINK TO REMAIN WITHIN PERMISSIBLE LIMIT?"
+      ],
+      "answer": "There is no hard and fast rule as it depends on the body constitution, gender, whether; liquor is taken on empty stomach or with the food or the duration over which liquor the consumed. Generally one bottle of beer / 30ml Whisky / Rum will keep the person below the permissible limit of 30 units. However, our metabolism burns about 10 units in an hour. And therefore, larger quantity consumed over longer duration will still keep the person within permissible limits. However, these measures are indicative in nature."
+    },
+    {
+      "intent": "HOW DO I KNOW THAT THE STRAW IS NOT BEING RE-USED?",
+      "questions": [
+        "HOW DO I KNOW THAT THE STRAW IS NOT BEING RE-USED?"
+      ],
+      "answer": "We have strict instructions to use unused disposable straw. You can insist on fresh straw in a sealed cover to be opened in your presence and destroy the straw after you have used it. One is also free to carry his used straw."
+    },
+    {
+      "intent": "WHEN CAN THE AUTHORITIES DETAIN A VEHICLE?",
+      "questions": [
+        "WHEN CAN THE AUTHORITIES DETAIN A VEHICLE?"
+      ],
+      "answer": "Authorities can detain a vehicle in the following circumstances:\n\nVehicle being driven by an individual without valid driving license\nVehicle being driven without registration Certificate\nTransport vehicle being driven without Permit or in violation of permit conditions\nVehicle being driven without payment of Tax\nWhen a person is drunk and driving\nVehicle involved/to be suspected in a serious offence."
+    },
+    {
+      "intent": "WEARING OF HELMET... IS WEARING HELMET COMPULSORY FOR SCOOTER AND MOTORCYCLE RIDERS?",
+      "questions": [
+        "WEARING OF HELMET... IS WEARING HELMET COMPULSORY FOR SCOOTER AND MOTORCYCLE RIDERS?"
+      ],
+      "answer": "Yes. As per Sec 129 MV Act, while riding wearing a standard helmet in appropriate way with securely fastened chin strap is compulsory for any person above 4 years of age. However Sikhs wearing Turban are exempted from this rule. Violators will be charged U/sec 194 D of M.V (Amendment) Act- 2019 for which fine is Rs.500/- and person or a pillion rider without helmet will be disqualified for holding a license for 3 months"
+    },
+    {
+      "intent": "WHAT ABOUT POLLUTION CHECK?",
+      "questions": [
+        "WHAT ABOUT POLLUTION CHECK?"
+      ],
+      "answer": "It is mandatory to carry a valid emission certificate. However, Police have been instructed not to stop any motorists for merely checking emission certificate."
+    },
+    {
+      "intent": "OTHER STATE REGISTERED VEHICLES",
+      "questions": [
+        "CAN POLICE PENALIZE VEHICLES JUST FOR THE REASON THAT IT IS REGISTERED OUTSIDE KARNATAKA?"
+      ],
+      "answer": "No. Police are not authorized to penalize any of vehicles for out of State number plates, just because it is registered outside Karnataka. This is not the mandate for Police."
+    },
+    {
+      "intent": "MY VEHICLE GOT DAMAGED IN AN ACCIDENT. POLICE DID NOT HELP ME IN GETTING COMPENSATION!",
+      "questions": [
+        "MY VEHICLE GOT DAMAGED IN AN ACCIDENT. POLICE DID NOT HELP ME IN GETTING COMPENSATION!"
+      ],
+      "answer": "Insurance company and not the Police are liable to compensate the damages. Police will only prosecute the accused for rashness and negligence act in the court of law. A Motor Vehicle Claims case is to be filed separately for claiming damages"
+    },
+    {
+      "intent": "TRAFFIC OFFENCES",
+      "questions": [
+        "I CROSSED THE STOP LINE SEEING GREEN SIGNAL. BUT TRAFFIC IN FRONT OF ME WAS NOT MOVING AND I GOT PENALIZED."
+      ],
+      "answer": "Even if signal is green you should not enter the junction unless the tail of the traffic in front of you is moving. Otherwise you will create gridlock and block cross traffic."
+    },
+    {
+      "intent": "SIGNAL JUMPING",
+      "questions": [
+        "I CROSSED STOP LINE BEFORE THE SIGNAL TURNING RED, WHILE IT WAS STILL YELLOW. BUT I COULD NOT CLEAR THE JUNCTION DUE TO CONGESTION AHEAD. WHY WAS I FINED FOR SIGNAL JUMPING?"
+      ],
+      "answer": "Yellow / Amber signal is provided only for those vehicles which have already crossed stop line to clear the junction. You are not expected to enter the junction when the green light has already changed to yellow."
+    },
+    {
+      "intent": "WHY ARE JUNCTIONS PAINTED CRISS-CROSS IN THE CENTER?",
+      "questions": [
+        "WHY ARE JUNCTIONS PAINTED CRISS-CROSS IN THE CENTER?"
+      ],
+      "answer": "Criss-Cross marking indicates “no standing”. Unless one is sure of clearing the junction, he should not enter the well of the junction even if the signal light is green, because it will block the cross traffic and lead to grid-lock."
+    },
+    {
+      "intent": "SPEED LIMIT",
+      "questions": [
+        "I DON’T SEE SPEED LIMIT BOARDS IN THE CITY?"
+      ],
+      "answer": "As per notification No 248/TD/COP/2014 issued by The Commissioner of Police and published in the Gazette dated 20-11-2014, speed limit in entire city corporation limits is 60 kmph for LMV, 40 kmph for Autorickshaws and 50 kmph for all other vehicles. It is not practicable to erect sign boards all over 4000 kms road length in city. Some designated roads with 4 lanes and above with divided carriage way like Devanahalli road, NICE Road, Outer ring road etc., have higher speed limit of 80 kmph."
+    },
+    {
+      "intent": "PARKING VIOLATION",
+      "questions": [
+        "I GOT FINED FOR PARKING VIOLATION. BUT BOARD WAS AT LEAST 20 METERS AWAY FROM WHERE I PARKED?"
+      ],
+      "answer": "It is not possible or practicable to put a board every meter for each vehicle. “No parking” zones are notified by Gazette or by Commissioner of Police and then boards are erected. Each board indicates that roughly 50 m-100m each side of boards is no-parking area. That is why boards are most of the times 100 meters apart."
+    },
+    {
+      "intent": "WHY DO TRAFFIC POLICE SWITCH OFF THE LIGHTS DURING PEAK HOURS?",
+      "questions": [
+        "WHY DO TRAFFIC POLICE SWITCH OFF THE LIGHTS DURING PEAK HOURS?"
+      ],
+      "answer": "Though it is not a good practice but is inevitable sometimes due to inadequate capacity of junctions. There are situations when the road is not able to take the entire volume of traffic and tail of traffic ahead does not get cleared even till the next green phase. Now if the lights are not switched off, vehicles will block the junction and make it impossible for even cross traffic to move thus creating a grid-lock. It is loose-loose situation for all. At this juncture policemen take over the signal manually and regulate it according to clearance and relative volume. However, this practice is largely reduced and will disappear soon due to increased capacity of roads and junctions and installing adaptive signals. Switching off also becomes inevitable during acts of nature like water logging, cracks in road and man-made situations like strikes, rasta-roko and VIP movement, major accidents, off roading of vehicle, when one or more roads become unavailable for traffic. In all such situations manual operations are resorted to. This practice is however not encouraged."
+    },
+    {
+      "intent": "SPOT FINE NOTICE",
+      "questions": [
+        "AMONG TRAFFIC OFFICERS, WHO IS AUTHORIZED TO GIVE A SPOT FINE NOTICE?"
+      ],
+      "answer": "Traffic officers of and above the rank of assistant sub-inspector are authorized to give away traffic violation Challans or notices, which are for spot fines. Officers of the rank of Assistant Sub Inspector or ASI (one-star), Sub-inspector or PSI (two-star), Inspector or PI (three-star) are authorized to collect spot fines.... Any officer below the rank of ASI, who are constables and head constables, can only note down the nature of violation and vehicle number through digital Field Traffic Violation Report, and submit the information to the traffic enforcement automation Centre. Notices will then be issued from the Centre. The violator will have to pay the fine as mentioned above. Traffic Constables or Head Constables are not authorized to collect money as they do not carry receipt books of Personal Digital Assistant (PDA). The motorist may lodge a complaint if any officer below the rank of ASI collects fine from him."
+    },
+    {
+      "intent": "DON'T WANT TO PAY SPOT FINE. WHAT IS THE OTHER OPTION?",
+      "questions": [
+        "DON'T WANT TO PAY SPOT FINE. WHAT IS THE OTHER OPTION?"
+      ],
+      "answer": "If a violator refuses or does not want to pay a spot fine, he would be required to surrender his original driving license - for which the officer concerned would give an acknowledgement. He can walk into the police station within a week, pay the fine and get the DL back or he can pay the fine at court or abide by the orders of the court. If the motorist fails to appear in court, a warrant to compel his appearance will be issued and he will have to face arrest or stiffer penalties."
+    },
+    {
+      "intent": "IF YOU ARE A WITNESS TO AN ACCIDENT",
+      "questions": [
+        "IF I WITNESS A ACCIDENT, WHAT SHOULD I DO? WILL I BE HARASSED BY POLICE OF OTHER AUTHORITIES TO TESTIFY REPEATEDLY AND SUMMONED AGAIN AND AGAIN TO POLICE STATION / COURT?"
+      ],
+      "answer": "Please arrange for medical aid and inform the police immediately. Note down the details of the accused person and vehicle before informing the police. A good Samaritan refers to someone who renders emergency aid in an emergency to an injured person. A bystander"
+    },
+  
+    {
+      "intent": "LANE_DISCIPLINE",
+      "questions": [
+        "WHAT ARE THE RULES FOR LANE DRIVING?",
+        "HOW SHOULD I DRIVE ON CHANNELISED ROADS?"
+      ],
+      "answer": "Where any road is marked by lanes for movement of traffic, the driver of a motor vehicle shall drive within the lane and change the lane only after giving proper signal. The left-most lane should be used for regular driving, while other lanes are for overtaking. Lane hopping is prohibited. Always use turn signals when changing lanes and give way to traffic already in the lane you wish to enter."
+    },
+    {
+      "intent": "STOP_SIGN_RULES",
+      "questions": [
+        "WHAT SHOULD I DO AT A STOP SIGN OR LINE?",
+        "WHAT IS THE RULE FOR STOP LINES ON ROAD SURFACE?"
+      ],
+      "answer": "When any line is painted on or inlaid into the surface of any road at the approach to a road junction or to a pedestrian crossing or otherwise, no driver shall drive a motor vehicle so that any part thereof projects beyond that line at any time when a signal to stop is being given by a police officer or by means of a traffic control light or by the display of any traffic sign."
+    },
+    {
+      "intent": "DISTANCE_FROM_VEHICLES",
+      "questions": [
+        "HOW MUCH DISTANCE SHOULD I MAINTAIN FROM THE VEHICLE IN FRONT?",
+        "WHAT IS THE SAFE FOLLOWING DISTANCE?"
+      ],
+      "answer": "The driver of a motor vehicle moving behind another vehicle shall keep at a sufficient distance from that other vehicle to avoid collision if the vehicle in front should suddenly slow down or stop. This is especially important at higher speeds where reaction time becomes critical."
+    },
+    {
+      "intent": "BRAKE_USAGE",
+      "questions": [
+        "CAN I APPLY BRAKES SUDDENLY?",
+        "WHAT IS THE RULE REGARDING ABRUPT BRAKING?"
+      ],
+      "answer": "No driver of a vehicle shall apply brake abruptly unless it is necessary to do so for safety reasons. Sudden braking can cause accidents, especially if vehicles behind are following too closely."
+    },
+    {
+      "intent": "UPHILL_PRECEDENCE",
+      "questions": [
+        "WHO HAS RIGHT OF WAY ON MOUNTAIN ROADS?",
+        "SHOULD UPHILL OR DOWNHILL VEHICLES GIVE WAY ON STEEP ROADS?"
+      ],
+      "answer": "On mountain roads and steep roads, the driver of a motor vehicle travelling downhill shall give precedence to a vehicle going uphill wherever the road is not sufficiently wide to allow the vehicles to pass each other freely without danger, and stop the vehicle to the side of the road in order to allow any vehicle proceeding uphill to pass."
+    },
+    {
+      "intent": "DRIVER_OBSTRUCTION",
+      "questions": [
+        "CAN PASSENGERS STAND NEXT TO THE DRIVER?",
+        "WHAT COUNTS AS OBSTRUCTION OF DRIVER?"
+      ],
+      "answer": "A driver of a motor vehicle shall not allow any person to stand or place anything in such manner or position as to hamper the driver's control of the vehicle. The driver must have clear visibility and unobstructed access to all controls."
+    },
+    {
+      "intent": "SPEED_RESTRICTIONS_SPECIAL_CASES",
+      "questions": [
+        "WHAT SPEED SHOULD I MAINTAIN NEAR PROCESSIONS OR ROAD REPAIRS?",
+        "IS THERE A SPECIAL SPEED LIMIT FOR PASSING WORKMEN?"
+      ],
+      "answer": "The driver of a motor vehicle shall, when passing or meeting processions or a body of troops or police on the march or when passing workmen engaged on road repairs, drive at a speed not exceeding 25 km per hour."
+    },
+    {
+      "intent": "TRACTOR_AND_GOODS_VEHICLE_RULES",
+      "questions": [
+        "CAN I CARRY PASSENGERS ON A TRACTOR?",
+        "HOW MANY PEOPLE CAN TRAVEL IN A GOODS VEHICLE?"
+      ],
+      "answer": "A driver when driving a tractor shall not carry or allow any person to be carried on the tractor. A driver of goods carriage shall not carry in the driver's cabin more numbers of persons than that is mentioned in the registration certificate and shall not carry passengers for hire or reward."
+    },
+    {
+      "intent": "OVERTAKING_RULES",
+      "questions": [
+        "WHAT ARE THE RULES FOR OVERTAKING?",
+        "WHEN IS OVERTAKING PROHIBITED?"
+      ],
+      "answer": "The driver of a motor vehicle shall not pass a vehicle traveling in the same direction in certain prohibited situations. When being overtaken, a driver shall not increase speed or do anything to prevent the other vehicle from passing. Overtaking should be done from the right side after giving proper signal, ensuring there is enough space and visibility to complete the maneuver safely."
+    },
+    {
+      "intent": "TRAFFIC_SIGNAL_MEANINGS",
+      "questions": [
+        "WHAT DO THE DIFFERENT TRAFFIC SIGNAL COLORS MEAN?",
+        "HOW SHOULD I RESPOND TO TRAFFIC LIGHTS?"
+      ],
+      "answer": "Traffic signals consist of three colors: Red indicates drivers must stop completely. Yellow warns drivers to prepare to stop. Green permits drivers to proceed if the way is clear. Always follow these signals and do not enter a junction on yellow unless you have already crossed the stop line."
+    },
+    {
+      "intent": "INSURANCE_REQUIREMENTS",
+      "questions": [
+        "IS VEHICLE INSURANCE MANDATORY?",
+        "WHAT ARE THE PENALTIES FOR DRIVING WITHOUT INSURANCE?"
+      ],
+      "answer": "No vehicle should be driven without a valid, active insurance policy with at least third-party liability coverage. If you have a driving uninsured vehicle, you will be punished with a fine of Rs. 2000 and/or imprisonment up to 3 months for the first offense and fine of Rs. 4000 and/or imprisonment up to 3 months for the second offense."
+    },
+    {
+      "intent": "EMERGENCY_VEHICLE_RULES",
+      "questions": [
+        "WHAT SHOULD I DO WHEN AN AMBULANCE APPROACHES?",
+        "HOW TO RESPOND TO EMERGENCY VEHICLES?"
+      ],
+      "answer": "It is mandatory for drivers to clear the path for emergency vehicles, such as ambulances, fire brigades, disaster management vehicles, and police vehicles (with flashing lights or sirens). Pull over safely to the side of the road to allow these vehicles to pass quickly."
+    },
+    {
+      "intent": "RACING_AND_SPEEDING_PENALTIES",
+      "questions": [
+        "WHAT ARE THE PENALTIES FOR RACING ON PUBLIC ROADS?",
+        "WHAT HAPPENS IF I'M CAUGHT SPEEDING?"
+      ],
+      "answer": "Punishment for racing and speeding is imprisonment for up to 1 month and/or fine up to Rs. 500 for the first offense and imprisonment up to 1 month and/or fine up to Rs. 10000 for the second offense. Racing on public roads is strictly prohibited and can result in license suspension."
+    },
+    {
+      "intent": "DRIVING_WHILE_DISQUALIFIED",
+      "questions": [
+        "WHAT HAPPENS IF I DRIVE WITH A SUSPENDED LICENSE?",
+        "WHAT IS THE PENALTY FOR DRIVING WHILE DISQUALIFIED?"
+      ],
+      "answer": "The penalty in case of driving despite being disqualified will cost you Rs 10,000 (increased from Rs 500 previously). This is a serious offense and can lead to further license suspension or revocation."
+    },
+    {
+      "intent": "HELMET_REGULATIONS",
+      "questions": [
+        "WHAT TYPE OF HELMET IS LEGALLY ACCEPTABLE?",
+        "DO PILLION RIDERS NEED TO WEAR HELMETS TOO?"
+      ],
+      "answer": "Both the rider and the pillion rider must wear BIS-compliant helmets bearing the ISI mark. As per Section 129 of the Indian Motor Vehicle Act, wearing a helmet is mandatory for two-wheeler riders. Violators will be charged under section 194D of M.V (Amendment) Act-2019 for which the fine is Rs.500/- and the person or pillion rider without a helmet will be disqualified from holding a license for 3 months."
+    },
+    {
+      "intent": "SEATBELT_REQUIREMENTS",
+      "questions": [
+        "WHO NEEDS TO WEAR SEATBELTS IN A CAR?",
+        "IS IT MANDATORY FOR REAR PASSENGERS TO WEAR SEATBELTS?"
+      ],
+      "answer": "Drivers and all passengers in four-wheeler vehicles are required to wear seatbelts. Occupants in cars must wear seat belts while the vehicle is in motion (U/S 194-B of MV Act). This applies to front and rear passengers."
+    },
+    {
+      "intent": "VEHICLE_REGISTRATION_REQUIREMENTS",
+      "questions": [
+        "HOW DO I REGISTER MY VEHICLE?",
+        "IS VEHICLE REGISTRATION MANDATORY?"
+      ],
+      "answer": "All vehicles running on the road are mandated to be registered with the relevant transport authorities, i.e., the appropriate Regional Transport Office (RTO). Driving an unregistered vehicle is illegal and subject to penalties. The registration must be renewed as per the prescribed schedule."
+    },
+    {
+      "intent": "PARKING_REGULATIONS",
+      "questions": [
+        "WHERE CAN I LEGALLY PARK MY VEHICLE?",
+        "WHAT ARE THE PENALTIES FOR ILLEGAL PARKING?"
+      ],
+      "answer": "Park your vehicle only in authorized parking zones/spaces marked by signs or allowed by parking attendants. Non-compliance may result in fines, vehicle towing, and additional penalties. 'No parking' zones are notified by Gazette or by Commissioner of Police and then boards are erected. Each board indicates that roughly 50m-100m each side of boards is a no-parking area."
+    }
+  ]
+  

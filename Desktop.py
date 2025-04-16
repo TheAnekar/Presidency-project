@@ -1,5 +1,6 @@
 import tkinter as tk
 from datetime import datetime, timedelta
+from chatbot_core import find_best_match  # Connect backend
 
 class AILegalAssistantApp:
     def __init__(self, root):
@@ -12,7 +13,6 @@ class AILegalAssistantApp:
         self.update_clock()
 
     def create_widgets(self):
-        # Top Bar
         top_bar = tk.Frame(self.root, bg="#1f2937", height=60)
         top_bar.pack(fill=tk.X)
 
@@ -25,7 +25,6 @@ class AILegalAssistantApp:
         self.clock_label = tk.Label(top_bar, fg="white", bg="#1f2937", font=("Arial", 12))
         self.clock_label.pack(side=tk.RIGHT, padx=10)
 
-        # Chat Area
         self.chat_frame = tk.Text(self.root, wrap=tk.WORD, bg="#f9fbfc", fg="#000", font=("Arial", 12), state=tk.DISABLED)
         self.chat_frame.pack(padx=10, pady=(10, 0), fill=tk.BOTH, expand=True)
 
@@ -35,8 +34,6 @@ class AILegalAssistantApp:
         self.chat_frame.tag_configure("time", font=("Arial", 10), foreground="#888")
         self.chat_frame.insert(tk.END, "\n\nHow can I assist you today?\n\n", ("center", "welcome"))
         self.chat_frame.config(state=tk.DISABLED)
-
-        # Input Bar (Centered content)
 
         input_frame = tk.Frame(self.root, bg="white")
         input_frame.pack(pady=10)
@@ -51,7 +48,6 @@ class AILegalAssistantApp:
         send_button = tk.Button(center_inner_frame, text="Send", font=("Arial", 12), bg="#0a84ff", fg="white", command=self.send_message)
         send_button.grid(row=0, column=1)
 
-
     def update_clock(self):
         now = datetime.now()
         time_str = now.strftime('%I:%M %p')
@@ -63,18 +59,19 @@ class AILegalAssistantApp:
         if message == "":
             return
 
-        now = datetime.now()
-        timestamp = (now + timedelta(minutes=2)).strftime('%I:%M %p')  # 2-minute offset
+        timestamp = (datetime.now() + timedelta(minutes=2)).strftime('%I:%M %p')
+
+        response = find_best_match(message)  # ✅ Fetch backend response
 
         self.chat_frame.config(state=tk.NORMAL)
         self.chat_frame.insert(tk.END, f"You: {message}\n", "user")
-        self.chat_frame.insert(tk.END, f"{timestamp}\n\n", "time")
+        self.chat_frame.insert(tk.END, f"{timestamp}\n", "time")
+        self.chat_frame.insert(tk.END, f"Bot: {response}\n\n", "bot")
         self.chat_frame.config(state=tk.DISABLED)
         self.chat_frame.see(tk.END)
 
         self.input_entry.delete(0, tk.END)
 
-# Run the app
 if __name__ == "__main__":
     root = tk.Tk()
     app = AILegalAssistantApp(root)

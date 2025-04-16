@@ -55,6 +55,36 @@
       sendMessage();
     }
   });
+  function sendMessage() {
+  const input = document.getElementById('messageInput');
+  const messageText = input.value.trim();
+  if (messageText === '') return;
+
+  const chatArea = document.getElementById('chatArea');
+  const messageDiv = document.createElement('div');
+  messageDiv.className = 'message user';
+  const now = new Date();
+  messageDiv.innerHTML = `${messageText}<div class="timestamp">${now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</div>`;
+  chatArea.appendChild(messageDiv);
+
+  fetch("http://localhost:5000/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message: messageText })
+  })
+  .then(response => response.json())
+  .then(data => {
+    const botDiv = document.createElement('div');
+    botDiv.className = 'message bot';
+    botDiv.innerHTML = `${data.response}<div class="timestamp">${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</div>`;
+    chatArea.appendChild(botDiv);
+    chatArea.scrollTop = chatArea.scrollHeight;
+  })
+  .catch(err => console.error("Error:", err));
+
+  input.value = '';
+}
+
 </script>
 </body>
 </html>

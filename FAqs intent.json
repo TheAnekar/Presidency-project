@@ -6,6 +6,11 @@
     "response": "Depending on your state's laws and your personal circumstances, alimony (also called spousal support) may be awarded during a divorce. It can be temporary or permanent, though permanent support is less common today."
   },
   {
+    "intent": "Hi",
+    "topic": "greeting",
+    "response": "Hello!"
+  },
+  {
     "intent": "ask_paternity_info",
     "topic": "Paternity",
     "response": "Establishing paternity creates a legal relationship between a father and child. This can be done through voluntary acknowledgement, genetic testing, or other legal means. It may entitle the child to financial support and the father to visitation rights."
@@ -42,7 +47,7 @@
     },
     {
       "intent": "ask_change_alimony_amount",
-      "topic": "Alimony Modification",
+      "topic": "change alimony",
       "response": "If your financial or personal circumstances have significantly changed, you may request a temporary or permanent modification of the alimony amount you are paying or receiving as part of your divorce settlement."
     },
     {

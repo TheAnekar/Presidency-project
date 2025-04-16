@@ -1,0 +1,52 @@
+[
+  {
+    "intent": "ask_alimony_info",
+    "topic": "Alimony / Spousal Support",
+    "response": "Depending on your state's laws and your personal circumstances, alimony (also called spousal support) may be awarded during a divorce. It can be temporary or permanent, though permanent support is less common today."
+  },
+  {
+    "intent": "ask_paternity_info",
+    "topic": "Paternity",
+    "response": "Establishing paternity creates a legal relationship between a father and child. This can be done through voluntary acknowledgement, genetic testing, or other legal means. It may entitle the child to financial support and the father to visitation rights."
+  },
+  {
+    "intent": "ask_collaborative_divorce",
+    "topic": "Collaborative Divorce",
+    "response": "Collaborative divorce is an option for couples who want a cooperative, less contentious divorce process. It allows them to work together on agreements regarding finances, child custody, and other important matters without going to court."
+  },
+  {
+    "intent": "ask_parenting_agreements",
+    "topic": "Parenting Agreements",
+    "response": "After a divorce or separation, co-parents may create parenting agreements. These define where the children will live, visitation schedules, and who makes decisions about things like education and healthcare."
+  },
+  {
+    "intent": "ask_restraining_orders",
+    "topic": "Restraining Orders",
+    "response": "Victims of abuse, stalking, or harassment by family members can seek temporary or permanent restraining orders. These are court orders that reduce or eliminate contact between the abuser and the victim."
+  },
+  {
+      "intent": "ask_who_gets_house",
+      "topic": "Property Division",
+      "response": "When deciding who keeps the marital home during a divorce, courts may consider factors such as who will have physical custody of the children and whether the home equity was acquired using separate or community funds."
+   },
+    {
+      "intent": "ask_child_support_nonpayment",
+      "topic": "Child Support Enforcement",
+      "response": "If your ex-spouse refuses to pay child support, document each instance of non-payment. If the issue can't be resolved privately, you can seek enforcement or file a contempt action through the court."
+    },
+    {
+      "intent": "ask_relative_adoption",
+      "topic": "Adoption by Relatives",
+      "response": "Family members such as stepparents, grandparents, aunts, and uncles are often given preference in adoption cases. Courts typically consider it in the child's best interest to be placed with a relative when possible."
+    },
+    {
+      "intent": "ask_change_alimony_amount",
+      "topic": "Alimony Modification",
+      "response": "If your financial or personal circumstances have significantly changed, you may request a temporary or permanent modification of the alimony amount you are paying or receiving as part of your divorce settlement."
+    },
+    {
+      "intent": "ask_ex_move_kids_out_of_state",
+      "topic": "Relocation with Children",
+      "response": "In most states, if your ex wants to move to another state with your children, they must either give you a chance to contest the move or seek court approval through a formal petition process."
+    }  
+]
